@@ -7,6 +7,7 @@
 	<title>Lugar</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="fonts/mulish.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -15,18 +16,21 @@
 			<div class="container">
 				<div class="header__body">
 					<div class="header__logo">lugar</div>
+					<div class="header__burger burger">
+						<span></span>
+					</div>
 					<div class="header__menu">
 						<ul class="header__list">
-							<li><a href="">home</a></li>
-							<li><a href="">about</a></li>
-							<li><a href="">project</a></li>
-							<li><a href="">contact</a></li>
+							<li><a>home</a></li>
+							<li><a>about</a></li>
+							<li><a>projects</a></li>
+							<li><a>contacts</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</header>
-		<main class="content">
+		<main class="content" id="home">
 			<div class="main">
 				<div class="container">
 					<img src="img/main.png" alt="" class="main__bg-image">
@@ -38,7 +42,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="about">
+			<div class="about" id="about">
 				<div class="container">
 					<div class="about__row">
 						<img src="img/about.png" alt="" class="about__image">
@@ -64,7 +68,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="projects">
+			<div class="projects" id="projects">
 				<div class="container">
 					<div class="porjects__title title">Ongoing projects</div>
 					<div class="project__row">
@@ -130,6 +134,7 @@
 				</div>
 			</div>
 			<div class="feedback">
+				<!--
 				<div class="feedback__arrow-row">
 					<div class="projects__arrow-item">
 						<span></span>
@@ -138,6 +143,7 @@
 						<span></span>
 					</div>
 				</div>
+				-->
 				<div class="container">
 					<div class="feedback__title title">Few smiles and comment</div>
 					<div class="feedback__desc desc">Turpis facilisis tempor pulvinar in lobortis ornare magna.</div>
@@ -153,7 +159,7 @@
 									<div class="feedback__item-job">Artist</div>
 								</div>
 							</div>
-							<div class="feedback__row slider-item">
+							<!--<div class="feedback__row slider-item">
 								<img src="img/feedback/02.jfif" alt="" class="feedback__image">
 								<div class="feedback__textblock">
 									<div class="feedback__item-title">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
@@ -176,11 +182,12 @@
 									<div class="feedback__item-job">Journalist</div>
 								</div>
 							</div>
+						-->
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="contacts">
+			<div class="contacts" id="contacts">
 				<div class="container">
 					<div class="contacts__row">
 						<img src="img/form.jfif" alt="" class="contacts__image">
@@ -221,10 +228,10 @@
 						<div class="footer__item">
 							<div class="footer__title">Quick links</div>
 							<ul class="footer__list">
-								<li>Home</li>
-								<li>About</li>
-								<li>Project</li>
-								<li>Contact</li>
+								<li><a>Home</a></li>
+								<li><a>About</a></li>
+								<li><a>Project</a></li>
+								<li><a>Contact</a></li>
 							</ul>
 						</div>
 						<div class="footer__item">
